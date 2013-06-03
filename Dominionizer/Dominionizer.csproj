@@ -50,6 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sets\AlchemyCards.cs" />
     <Compile Include="Sets\CornucopiaCards.cs" />
+    <Compile Include="Sets\DarkAgesCards.cs" />
     <Compile Include="Sets\DominionCards.cs" />
     <Compile Include="Sets\HinterlandsCards.cs" />
     <Compile Include="Sets\IntrigueCards.cs" />

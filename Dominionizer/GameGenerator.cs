@@ -143,6 +143,7 @@ namespace Dominionizer
             if (parameters.FindSet("Seaside").IsSet) availableCards.AddRange(cards.Where(x => x.Set == CardSet.Seaside));
             if (parameters.FindSet("Cornucopia").IsSet) availableCards.AddRange(cards.Where(x => x.Set == CardSet.Cornucopia));
             if (parameters.FindSet("Hinterlands").IsSet) availableCards.AddRange(cards.Where(x => x.Set == CardSet.Hinterlands));
+            if (parameters.FindSet("DarkAges").IsSet) availableCards.AddRange(cards.Where( x=> x.Set == CardSet.DarkAges));
 
             // Promo Cards
             if (parameters.FindSet("BlackMarket").IsSet) availableCards.AddRange(cards.Where(x => x.Set == CardSet.BlackMarket));
