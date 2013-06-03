@@ -9,9 +9,10 @@ namespace Dominionizer
         Prosperity = 500,
         Cornucopia = 600,
         Hinterlands = 700,
+        DarkAges = 800,
         BlackMarket = 1001,
         Envoy = 1002,
         Stash = 1003,
-        WalledVillage = 1004,
+        WalledVillage = 1004
     }
 }
