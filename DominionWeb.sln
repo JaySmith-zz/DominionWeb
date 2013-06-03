@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominionWeb", "DominionWeb\DominionWeb.csproj", "{4FDCC044-7EFE-497B-A8AE-D1C12377B846}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominionizer", "Dominionizer\Dominionizer.csproj", "{64A9EED8-9E4E-4380-9F12-6FB5F90CE3DA}"
