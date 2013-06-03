@@ -50,6 +50,21 @@
                     @Html.LabelFor(model => model.Parameters.Promo)
                     @Html.ValidationMessageFor(model => model.Parameters.Promo)
                 </div>
+                <div class="editor-field">
+                    @Html.CheckBoxFor(model => model.Parameters.Cornucopia)
+                    @Html.LabelFor(model => model.Parameters.Cornucopia)
+                    @Html.ValidationMessageFor(model => model.Parameters.Cornucopia)
+                </div>
+                <div class="editor-field">
+                    @Html.CheckBoxFor(model => model.Parameters.Hinterlands)
+                    @Html.LabelFor(model => model.Parameters.Hinterlands)
+                    @Html.ValidationMessageFor(model => model.Parameters.Hinterlands)
+                </div>
+                <div class="editor-field">
+                    @Html.CheckBoxFor(model => model.Parameters.DarkAges)
+                    @Html.LabelFor(model => model.Parameters.DarkAges)
+                    @Html.ValidationMessageFor(model => model.Parameters.DarkAges)
+                </div>
                 <b>Options</b>
                 <div class="editor-field">
                     @Html.CheckBoxFor(model => model.Parameters.RequireTwoToFiveCostCards)
@@ -120,6 +135,9 @@
                         if (item.Set == CardSet.Prosperity) { setImageName = "prosperity.png"; }
                         if (item.Set == CardSet.Seaside) { setImageName = "seaside.png"; }
                         if (item.Set == CardSet.Dominion) { setImageName = "dominion.png"; }
+                        if (item.Set == CardSet.Cornucopia) { setImageName = "cornucopia.png"; }
+                        if (item.Set == CardSet.Hinterlands) { setImageName = "hinterlands.png"; }
+                        if (item.Set == CardSet.DarkAges) { setImageName = "darkages.png"; }
 
                         var setImageUrlBase = "/Content/Images/" + setImageName;
                                     <img src="@setImageUrlBase " width="15px" height="15px" alt="@item.Set" />
