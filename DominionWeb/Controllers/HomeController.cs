@@ -12,9 +12,8 @@
     {
         public ActionResult Index()
         {
-            var model = new IndexViewModel();
-            model.Parameters = new GameParameters();
-            
+            var model = new IndexViewModel {Parameters = new GameParameters()};
+
             return View(model);
         }
 
@@ -60,9 +59,12 @@
             if (parameters.Base) gameParamaters.FindSet("Dominion").IsSet = true;
             if (parameters.Alchemy) gameParamaters.FindSet("Alchemy").IsSet = true;
             if (parameters.Intrigue) gameParamaters.FindSet("Intrigue").IsSet = true;
-            if (parameters.Promo) gameParamaters.FindSet("Promp").IsSet = true;
+            if (parameters.Promo) gameParamaters.FindSet("Promo").IsSet = true;
             if (parameters.Prosperity) gameParamaters.FindSet("Prosperity").IsSet = true;
             if (parameters.Seaside) gameParamaters.FindSet("Seaside").IsSet = true;
+            if (parameters.Cornucopia) gameParamaters.FindSet("Cornucopia").IsSet = true;
+            if (parameters.Hinterlands) gameParamaters.FindSet("Hinterlands").IsSet = true;
+            if (parameters.DarkAges) gameParamaters.FindSet("DarkAges").IsSet = true;
 
             if (parameters.RequireReactionToAttack) gameParamaters.FindRule("RequireReactionToAttack").IsSet = true;
             if (parameters.RequireTwoToFiveCostCards) gameParamaters.FindRule("RequireTwoToFiveCostCards").IsSet = true;
